@@ -21,8 +21,8 @@ export const Gallery = () => {
     },
     {
       id: 3,
-      thumbnail: "https://images.pexels.com/photos/5778399/pexels-photo-5778399.jpeg?auto=compress&cs=tinysrgb&w=600",
-      full: "https://images.pexels.com/photos/5778399/pexels-photo-5778399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      thumbnail: "https://bo.quelleenergie.fr/sites/default/files/2024-09/fiche-conseils-entretien-chauffe-eau-thermodynamique-01.jpg?auto=compress&cs=tinysrgb&w=600",
+      full: "https://bo.quelleenergie.fr/sites/default/files/2024-09/fiche-conseils-entretien-chauffe-eau-thermodynamique-01.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       alt: "Réparation d'un système défectueux",
       category: "Réparation"
     },
