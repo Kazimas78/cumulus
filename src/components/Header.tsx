@@ -23,8 +23,8 @@ export const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <div className="font-bold text-xl md:text-2xl">
-            <span className="text-amber-500">Cumulus</span>
-            <span className="text-white">SERVICE</span>
+            <span className="text-amber-500">ALLO</span>
+            <span className="text-white">cumulus</span>
           </div>
         </div>
 
