@@ -9,18 +9,18 @@ export const Emergency = () => {
           <div className="flex items-center gap-4">
             <AlertTriangle size={40} className="text-white" />
             <div>
-              <h3 className="text-2xl font-bold">Urgence plomberie ?</h3>
+              <h3 className="text-2xl font-bold">Urgence cumulus ?</h3>
               <p className="text-amber-100">Intervention rapide sur Antibes et alentours</p>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-              href="tel:04XXXXXXXX" 
+              href="tel:0625654638" 
               className="bg-white text-amber-600 hover:bg-amber-50 font-bold py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition duration-300"
             >
               <Phone size={20} />
-              04.89.XX.XX.XX
+              06.25.65.46.368
             </a>
             <a 
               href="#contact" 
