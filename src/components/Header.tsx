@@ -33,7 +33,7 @@ export const Header = () => {
           <NavLinks />
           <a href="#contact" className="flex items-center text-blue-900 hover:text-blue-700 transition">
             <Phone size={16} className="mr-2" />
-            <span className="font-semibold">04.89.XX.XX.XX</span>
+            <span className="text-white font-semibold">06.25.65.46.38</span>
           </a>
         </nav>
 
