@@ -166,7 +166,7 @@ export const Contact = () => {
                 <ContactInfo 
                   icon={<Phone size={20} />}
                   title="Téléphone"
-                  content="04.89.XX.XX.XX"
+                  content="06.25.65.46.38"
                   link="tel:04XXXXXXXX"
                 />
                 
@@ -180,7 +180,7 @@ export const Contact = () => {
                 <ContactInfo 
                   icon={<MapPin size={20} />}
                   title="Adresse"
-                  content="123 Avenue de la Plomberie, 06600 Antibes"
+                  content="123 Avenue du Cumulus, 06600 Antibes"
                   link="https://maps.google.com"
                 />
                 
