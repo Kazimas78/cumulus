@@ -8,8 +8,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="text-xl font-bold mb-4">
-              <span className="text-amber-500">Cumulus</span>
-              <span className="text-white">SERVICE</span>
+              <span className="text-amber-500">ALLO</span>
+              <span className="text-white">cumulus</span>
             </div>
             <p className="text-blue-200 mb-4">
               Votre spécialiste du remplacement et de l'installation de chauffe-eau à Antibes
