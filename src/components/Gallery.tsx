@@ -28,8 +28,8 @@ export const Gallery = () => {
     },
     {
       id: 4,
-      thumbnail: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600",
-      full: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      thumbnail: "https://www.atlantic.fr/var/atlantic/storage/images/4/5/3/3/1693354-1-fre-FR/7daf96a9a391-chauffe-eau-thermodynamique-atlantic-calypso-vs-ambiance-garage.jpg?auto=compress&cs=tinysrgb&w=600",
+      full: "https://www.atlantic.fr/var/atlantic/storage/images/4/5/3/3/1693354-1-fre-FR/7daf96a9a391-chauffe-eau-thermodynamique-atlantic-calypso-vs-ambiance-garage.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       alt: "Installation dans un appartement moderne",
       category: "Installation"
     }
