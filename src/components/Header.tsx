@@ -24,7 +24,7 @@ export const Header = () => {
         <div className="flex items-center">
           <div className="font-bold text-xl md:text-2xl">
             <span className="text-amber-500">ALLO</span>
-            <span className="text-white">cumuluz</span>
+            <span className="text-white">cumulus</span>
           </div>
         </div>
 
