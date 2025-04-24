@@ -14,8 +14,8 @@ export const Gallery = () => {
     },
     {
       id: 2,
-      thumbnail: "https://images.pexels.com/photos/8482877/pexels-photo-8482877.jpeg?auto=compress&cs=tinysrgb&w=600",
-      full: "https://images.pexels.com/photos/8482877/pexels-photo-8482877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      thumbnail: "https://www.thermor.fr/var/site/storage/images/_aliases/optimized/4/0/6/5/1765604-5-fre-FR/73b743aa045a-Blog_782x480_aeromax-split3-270.jpg?auto=compress&cs=tinysrgb&w=600",
+      full: "https://www.thermor.fr/var/site/storage/images/_aliases/optimized/4/0/6/5/1765604-5-fre-FR/73b743aa045a-Blog_782x480_aeromax-split3-270.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       alt: "Remplacement d'un système ancien",
       category: "Remplacement"
     },
