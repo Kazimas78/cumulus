@@ -7,8 +7,8 @@ export const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      thumbnail: "https://images.pexels.com/photos/5186449/pexels-photo-5186449.jpeg?auto=compress&cs=tinysrgb&w=600",
-      full: "https://images.pexels.com/photos/5186449/pexels-photo-5186449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      thumbnail: "https://debouchage-debouchetout.fr/storage/2023/08/travailleur-reparant-chauffe-eau-scaled.jpg?auto=compress&cs=tinysrgb&w=600",
+      full: "https://debouchage-debouchetout.fr/storage/2023/08/travailleur-reparant-chauffe-eau-scaled.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       alt: "Installation d'un ballon d'eau chaude",
       category: "Installation"
     },
