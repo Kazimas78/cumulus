@@ -16,19 +16,30 @@ export const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // In a real application, you would handle the form submission here
-    alert('Merci pour votre message ! Nous vous contacterons très rapidement.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      service: '',
-      urgency: '',
-      message: ''
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch("https://allocumulus.fr/sendmail.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData)
     });
-  };
+
+    const result = await response.json();
+    alert(result.message);
+  } catch (error) {
+    alert("Une erreur est survenue lors de l'envoi.");
+  }
+
+  setFormData({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    urgency: '',
+    message: ''
+  });
+};
 
   return (
     <section id="contact" className="py-20 bg-white">
