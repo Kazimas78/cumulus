@@ -35,7 +35,7 @@ export const Hero = () => {
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <FeatureBadge icon={<Clock size={20} />} text="Intervention sous 24h" />
+            <FeatureBadge icon={<Clock size={20} />} text="Intervention sous 24h*²" />
             <FeatureBadge icon={<ThumbsUp size={20} />} text="Garantie 2 ans" />
             <FeatureBadge icon={<Phone size={20} />} text="Devis instantané" />
           </div>
