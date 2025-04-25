@@ -12,7 +12,7 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
-            Remplacement de ballon d'eau chaude à <span className="text-amber-400">Antibes</span>
+            Remplacement de ballon d'eau chaude à <span className="text-amber-400">Antibes</span> et sa région
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8">
             Service professionnel, rapide et à prix compétitif par des experts locaux certifiés.
