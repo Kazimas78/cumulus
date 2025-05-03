@@ -12,8 +12,8 @@ export const Footer = () => {
               <span className="text-white">cumulus</span>
             </div>
             <p className="text-blue-200 mb-4">
-              Votre spécialiste du remplacement et de l'installation de chauffe-eau à Antibes
-              et dans les Alpes-Maritimes depuis plus de 15 ans.
+              Votre spécialiste Corse du remplacement et de l'installation de chauffe-eau à Ajaccio
+              et sa région depuis plus de 15 ans.
             </p>
             <div className="flex space-x-4">
               <SocialLink icon={<Facebook size={18} />} href="#" />
@@ -36,12 +36,12 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Zones d'Intervention</h3>
             <ul className="space-y-2">
-              <FooterLocation text="Antibes" />
-              <FooterLocation text="Juan-les-Pins" />
-              <FooterLocation text="Golfe-Juan" />
-              <FooterLocation text="Vallauris" />
-              <FooterLocation text="Biot" />
-              <FooterLocation text="Villeneuve-Loubet" />
+              <FooterLocation text="Ajaccio" />
+              <FooterLocation text="Baleone" />
+              <FooterLocation text="Porticcio" />
+              <FooterLocation text="Bastelicaccia" />
+              <FooterLocation text="Alata" />
+              <FooterLocation text="Afa" />
             </ul>
           </div>
           
