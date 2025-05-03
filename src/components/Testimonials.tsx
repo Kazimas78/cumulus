@@ -5,22 +5,22 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Jean-Luc Moreau",
-      location: "Antibes",
+      name: "Jean-Luc",
+      location: "Ajaccio",
       rating: 5,
       comment: "Intervention rapide et efficace. Le technicien était ponctuel, professionnel et a remplacé mon ballon d'eau chaude en moins de 2 heures. Service impeccable, je recommande vivement !"
     },
     {
       id: 2,
-      name: "Sophie Dupont",
-      location: "Juan-les-Pins",
+      name: "Sophie",
+      location: "Porticcio",
       rating: 5,
       comment: "Excellente prestation pour l'installation de mon nouveau ballon. Le conseiller m'a aidé à choisir le modèle adapté à mes besoins et le prix était très compétitif. Merci !"
     },
     {
       id: 3,
-      name: "Marc Lefevre",
-      location: "Golfe-Juan",
+      name: "Dumènicu",
+      location: "Campo",
       rating: 4,
       comment: "Très satisfait du service d'urgence un dimanche matin. Un technicien est venu rapidement et a réparé notre ballon qui fuyait. Très professionnel et travail soigné."
     }
@@ -33,7 +33,7 @@ export const Testimonials = () => {
           <h2 className="text-3xl font-bold mb-4">Ce que nos clients disent</h2>
           <p className="text-blue-200 max-w-2xl mx-auto">
             La satisfaction de nos clients est notre priorité. Voici quelques témoignages de personnes
-            qui nous ont fait confiance à Antibes et ses environs.
+            qui nous ont fait confiance à Ajaccio et ses environs.
           </p>
         </div>
 
@@ -45,7 +45,7 @@ export const Testimonials = () => {
 
         <div className="mt-12 text-center">
           <p className="text-blue-200 mb-6">
-            Rejoignez plus de 500 clients satisfaits à Antibes et dans les Alpes-Maritimes
+            Rejoignez les clients satisfaits à Ajaccio et ses environs
           </p>
           <a 
             href="#contact" 
