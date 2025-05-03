@@ -26,7 +26,7 @@ export const Hero = () => {
               Obtenir un devis gratuit
             </a>
             <a 
-              href="tel:04XXXXXXXX" 
+              href="tel:0679410967" 
               className="bg-white bg-opacity-20 hover:bg-opacity-30 backdrop-blur-sm text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition duration-300"
             >
               <Phone size={18} />
