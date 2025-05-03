@@ -47,7 +47,7 @@ export const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Contactez-Nous</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Besoin d'un remplacement de ballon d'eau chaude à Antibes ? Contactez-nous pour
+            Besoin d'un remplacement de ballon d'eau chaude à Ajaccio ? Contactez-nous pour
             un devis gratuit ou une intervention rapide.
           </p>
         </div>
