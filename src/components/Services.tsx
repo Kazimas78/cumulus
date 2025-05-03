@@ -13,27 +13,27 @@ export const Services = () => {
     {
       icon: <WrenchIcon className="h-10 w-10" />,
       title: "Remplacement",
-      description: "Remplacement professionnel de votre ballon d'eau chaude défectueux avec installation complète et mise aux normes."
+      description: "Remplacement professionnel à Ajaccio de votre ballon d'eau chaude défectueux avec installation complète et mise aux normes."
     },
     {
       icon: <HomeIcon className="h-10 w-10" />,
       title: "Installation",
-      description: "Installation de nouveaux ballons d'eau chaude de qualité supérieure avec garantie constructeur."
+      description: "Installation à Ajaccio de nouveaux ballons d'eau chaude de qualité supérieure avec garantie constructeur."
     },
     {
       icon: <TimerIcon className="h-10 w-10" />,
       title: "Urgence",
-      description: "Service d'urgence disponible 7j/7 pour les pannes soudaines nécessitant une intervention rapide."
+      description: "Service d'urgence disponible 7j/7 à Ajaccio pour les pannes soudaines nécessitant une intervention rapide."
     },
     {
       icon: <ThermometerIcon className="h-10 w-10" />,
       title: "Maintenance",
-      description: "Entretien régulier et vérification de votre système pour prévenir les pannes et optimiser sa durée de vie."
+      description: "Entretien régulier et vérification à Ajaccio de votre système pour prévenir les pannes et optimiser sa durée de vie."
     },
     {
       icon: <Droplet className="h-10 w-10" />,
       title: "Réparation",
-      description: "Diagnostic et réparation de fuites, problèmes de température ou dysfonctionnements électriques."
+      description: "Diagnostic et réparation de fuites à Ajaccio , problèmes de température ou dysfonctionnements électriques."
     },
     {
       icon: <ShieldCheckIcon className="h-10 w-10" />,
@@ -49,7 +49,7 @@ export const Services = () => {
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Nos Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Des solutions complètes pour tous vos besoins en matière de chauffage d'eau, 
-            avec une équipe qualifiée et réactive sur Antibes et ses environs.
+            avec une équipe qualifiée et réactive sur Ajaccio et ses environs.
           </p>
         </div>
 
