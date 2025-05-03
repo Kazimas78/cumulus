@@ -177,22 +177,22 @@ export const Contact = () => {
                 <ContactInfo 
                   icon={<Phone size={20} />}
                   title="Téléphone"
-                  content="06.25.65.46.38"
-                  link="tel:04XXXXXXXX"
+                  content="06.79.41.09.67"
+                  link="tel:0679410967"
                 />
                 
                 <ContactInfo 
                   icon={<Mail size={20} />}
                   title="Email"
-                  content="contact@plomberie-antibes.fr"
-                  link="mailto:contact@plomberie-antibes.fr"
+                  content="allo@allocumulus.fr"
+                  link="mailto:allo@allocumulus.fr"
                 />
                 
                 <ContactInfo 
                   icon={<MapPin size={20} />}
                   title="Adresse"
-                  content="123 Avenue du Cumulus, 06600 Antibes"
-                  link="https://maps.google.com"
+                  content="RUE CONVENTIONNEL F SALICETTI RESIDENCE LIVRELLI, 20000 AJACCIO France"
+                  link="https://g.co/kgs/DRdTjyx"
                 />
                 
                 <ContactInfo 
@@ -205,8 +205,7 @@ export const Contact = () => {
               <div className="mt-8 pt-6 border-t border-blue-800">
                 <h4 className="font-bold mb-2">Zone d'intervention</h4>
                 <p className="text-blue-100 text-sm">
-                  Antibes, Juan-les-Pins, Golfe-Juan, Vallauris, Biot, 
-                  Villeneuve-Loubet, Cagnes-sur-Mer et environs.
+                  Ajaccio, Porticcio, Afa, Alata, Bastelicaccia et environs.
                 </p>
               </div>
             </div>
