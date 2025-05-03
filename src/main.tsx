@@ -4,7 +4,7 @@ import App from './App.tsx';
 import './index.css';
 
 // Update document title
-document.title = 'Cumulus Service Antibes | Remplacement Chauffe-Eau';
+document.title = 'Cumulus Service Ajaccio | Remplacement Chauffe-Eau';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
