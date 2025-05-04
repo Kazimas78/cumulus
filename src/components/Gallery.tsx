@@ -64,7 +64,7 @@ export const Gallery = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Nos Réalisations</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Découvrez quelques exemples de nos interventions récentes à Antibes et ses environs.
+            Découvrez quelques exemples de nos interventions récentes à Ajaccio et ses environs.
           </p>
         </div>
 
