@@ -19,9 +19,10 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
+   <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center gap-2">
+          <Droplets size={32} className="text-amber-500" />
           <div className="font-bold text-xl md:text-2xl">
             <span className="text-amber-500">ALLO</span>
             <span className="text-white">cumulus</span>
