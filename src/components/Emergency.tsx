@@ -10,7 +10,7 @@ export const Emergency = () => {
             <AlertTriangle size={40} className="text-white" />
             <div>
               <h3 className="text-2xl font-bold">Urgence cumulus ?</h3>
-              <p className="text-amber-100">Intervention rapide sur Antibes et alentours</p>
+              <p className="text-amber-100">Intervention rapide sur Ajaccio et alentours</p>
             </div>
           </div>
           
@@ -20,7 +20,7 @@ export const Emergency = () => {
               className="bg-white text-amber-600 hover:bg-amber-50 font-bold py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition duration-300"
             >
               <Phone size={20} />
-              06.25.65.46.368
+              06.79.41.09.67
             </a>
             <a 
               href="#contact" 
