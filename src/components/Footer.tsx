@@ -51,8 +51,8 @@ export const Footer = () => {
               <FooterLink text="Accueil" href="#hero" />
               <FooterLink text="À propos de nous" href="#" />
               <FooterLink text="Témoignages clients" href="#testimonials" />
-              <FooterLink text="FAQ" href="#faq" />
-              <FooterLink text="Contact" href="#contact" />
+              <FooterLink text="Foire aux questions" href="#faq" />
+              <FooterLink text="Nous contacter" href="#contact" />
             </ul>
           </div>
         </div>
