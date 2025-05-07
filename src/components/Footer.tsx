@@ -26,9 +26,9 @@ export const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Nos Services</h3>
             <ul className="space-y-2">
               <FooterLink text="Remplacement de cumulus" href="#services" />
-              <FooterLink text="Installation neuve" href="#services" />
-              <FooterLink text="Réparation d'urgence" href="#services" />
-              <FooterLink text="Entretien et maintenance" href="#services" />
+              <FooterLink text="Installation de chauffe eau" href="#services" />
+              <FooterLink text="Dépannage d'urgence chauffe eau" href="#services" />
+              <FooterLink text="Entretien et contrat de maintenance chauffe eau" href="#services" />
               <FooterLink text="Conseil et devis gratuit" href="#contact" />
             </ul>
           </div>
