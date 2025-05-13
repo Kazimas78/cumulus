@@ -18,20 +18,28 @@ export const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLogoClick = () => {
+    window.location.hash = '#hero';
+    window.scrollTo(0, 0);
+  };
+
   return (
    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center gap-2">
+        <div 
+          className="flex items-center gap-2 cursor-pointer" 
+          onClick={handleLogoClick}
+        >
           <Droplets size={32} className="text-amber-500" />
           <div className="font-bold text-xl md:text-2xl">
             <span className="text-amber-500">ALLO</span>
-            <span className="text-white">cumulus</span>
+            <span className={isScrolled ? 'text-blue-900' : 'text-white'}>cumulus</span>
           </div>
         </div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center space-x-8">
-          <NavLinks />
+          <NavLinks isScrolled={isScrolled} />
           <a href="#contact" className="flex items-center text-blue-900 hover:text-white transition">
             <Phone size={16} className="text-amber-500 mr-2" />
             <span className="text-amber-500 font-semibold">06.79.41.09.67</span>
@@ -69,10 +77,11 @@ export const Header = () => {
   );
 };
 
-const NavLinks = ({ mobile = false, setIsOpen = () => {} }) => {
+const NavLinks = ({ mobile = false, setIsOpen = () => {}, isScrolled = false }) => {
   const links = [
     { name: 'Accueil', href: '#hero' },
     { name: 'Services', href: '#services' },
+    { name: 'Tarifs', href: '#pricing' },
     { name: 'Galerie', href: '#gallery' },
     { name: 'Témoignages', href: '#testimonials' },
     { name: 'FAQ', href: '#faq' },
@@ -84,9 +93,9 @@ const NavLinks = ({ mobile = false, setIsOpen = () => {} }) => {
       href={link.href}
       className={`${
         mobile 
-          ? 'block py-2 text-center hover:bg-gray-50 rounded-md' 
-          : 'hover:text-blue-700'
-      } text-gray-800 font-medium transition`}
+          ? 'block py-2 text-center hover:bg-gray-50 rounded-md text-gray-800' 
+          : `${isScrolled ? 'text-gray-800' : 'text-white'} hover:text-blue-700`
+      } font-medium transition`}
       onClick={() => mobile && setIsOpen(false)}
     >
       {link.name}

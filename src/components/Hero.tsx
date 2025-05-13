@@ -12,10 +12,10 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
-            Remplacement de ballon d'eau chaude à <span className="text-amber-400">Ajaccio</span>
+            Installation et Remplacement de Ballon d'Eau Chaude à <span className="text-amber-400">Ajaccio</span>
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8">
-            Service professionnel, rapide et à prix compétitif par des experts locaux certifiés.
+            Expert en chauffe-eau depuis plus de 15 ans en Corse. Intervention rapide, devis gratuit et service professionnel garanti.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -23,21 +23,21 @@ export const Hero = () => {
               href="#contact" 
               className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-center"
             >
-              Obtenir un devis gratuit
+              Devis gratuit et sans engagement
             </a>
             <a 
               href="tel:0679410967" 
               className="bg-white bg-opacity-20 hover:bg-opacity-30 backdrop-blur-sm text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition duration-300"
             >
               <Phone size={18} />
-              Appeler maintenant
+              06.79.41.09.67
             </a>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <FeatureBadge icon={<Clock size={20} />} text="Intervention sous 24h*²" />
-            <FeatureBadge icon={<ThumbsUp size={20} />} text="Garantie 2 ans" />
-            <FeatureBadge icon={<Phone size={20} />} text="Devis instantané" />
+            <FeatureBadge icon={<Clock size={20} />} text="Intervention sous 24h*" />
+            <FeatureBadge icon={<ThumbsUp size={20} />} text="Garantie 2 ans pièces et main d'œuvre" />
+            <FeatureBadge icon={<Phone size={20} />} text="Devis rapide et gratuit" />
           </div>
         </div>
       </div>

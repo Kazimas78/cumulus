@@ -6,20 +6,21 @@ export const Pricing = () => {
     {
       name: "Forfait Éco 100L",
       subtitle: "Studio & petit logement",
-      price: "690",
+      price: "790",
       buttonColor: "blue",
       features: [
         "Ballon 100L garanti 5 ans",
-        "Installation complète",
-        "Reprise et recyclage de l'ancien",
-        "Déplacement inclus (dans 30 km)",
+        "Pose complète avec raccordements",
+        "Reprise ancien ballon",
+        "Garantie 5 ans",
+        "Conseils d'usage inclus",
         "Idéal pour : studio, T1"
       ]
     },
     {
       name: "Forfait Confort 200L",
       subtitle: "Foyer standard",
-      price: "890",
+      price: "990",
       popular: true,
       buttonColor: "amber",
       features: [
@@ -32,13 +33,13 @@ export const Pricing = () => {
       ]
     },
     {
-      name: "Forfait Premium Thermodynamique",
+      name: "Forfait Thermodynamique",
       subtitle: "Économie d'énergie",
       price: "1990",
       buttonColor: "red",
       features: [
         "Ballon thermodynamique (200–300L)",
-        "Pose, raccordement électrique et air",
+        "Pose, raccordement électrique....",
         "Reprise ancien ballon",
         "Dossier d'aides géré",
         "Idéal pour : famille, économie long terme",

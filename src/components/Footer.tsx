@@ -26,9 +26,9 @@ export const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Nos Services</h3>
             <ul className="space-y-2">
               <FooterLink text="Remplacement de cumulus" href="#services" />
-              <FooterLink text="Installation de chauffe eau" href="#services" />
-              <FooterLink text="Dépannage d'urgence chauffe eau" href="#services" />
-              <FooterLink text="Entretien et contrat de maintenance chauffe eau" href="#services" />
+              <FooterLink text="Installation neuve" href="#services" />
+              <FooterLink text="Réparation d'urgence" href="#services" />
+              <FooterLink text="Entretien et maintenance" href="#services" />
               <FooterLink text="Conseil et devis gratuit" href="#contact" />
             </ul>
           </div>
@@ -51,8 +51,8 @@ export const Footer = () => {
               <FooterLink text="Accueil" href="#hero" />
               <FooterLink text="À propos de nous" href="#" />
               <FooterLink text="Témoignages clients" href="#testimonials" />
-              <FooterLink text="Foire aux questions" href="#faq" />
-              <FooterLink text="Nous contacter" href="#contact" />
+              <FooterLink text="FAQ" href="#faq" />
+              <FooterLink text="Contact" href="#contact" />
             </ul>
           </div>
         </div>
@@ -60,12 +60,12 @@ export const Footer = () => {
         <div className="border-t border-blue-900 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-300 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Cumulus Service - Tous droits réservés
+              &copy; {new Date().getFullYear()} ALLOCumulus Service - Tous droits réservés
             </p>
             <div className="flex space-x-4 text-blue-300 text-sm">
-              <a href="#" className="hover:text-white transition">Mentions légales</a>
+              <a href="#mentions-legales" className="hover:text-white transition">Mentions légales</a>
               <span>|</span>
-              <a href="#" className="hover:text-white transition">Politique de confidentialité</a>
+              <a href="#politique-confidentialite" className="hover:text-white transition">Politique de confidentialité</a>
             </div>
           </div>
         </div>
